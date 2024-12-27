@@ -1,16 +1,18 @@
 {
   "name": "com.azentio.playintegritytoken",
   "version": "0.0.1",
-  "description": "getting integrity token from google play integrity token API",
+  "description": "Unified plugin for Android and iOS",
   "cordova": {
     "id": "com.azentio.playintegritytoken",
     "platforms": [
-      "android"
+      "android",
+	  "ios"
     ]
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+	"cordova-ios"
   ],
   "author": "Mustafa Shakaroun",
   "license": "ISC"
