@@ -5,5 +5,5 @@ exports.integToken = function (arg0, arg1, success, error) {
 };
 
 exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'PlayIntegrityToken', 'coolMethod', [arg0]);
+    exec(success, error, 'CordovaPluginIos', 'coolMethod', [arg0]);
 };
